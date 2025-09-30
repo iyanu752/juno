@@ -11,8 +11,9 @@
 	import { missionControlIdDerived } from '$lib/derived/mission-control.derived';
 	import { i18n } from '$lib/stores/i18n.store';
 	import type { CanisterSegmentWithLabel } from '$lib/types/canister';
-	import { formatICP } from '$lib/utils/icp.utils';
+	import { formatICP} from '$lib/utils/icp.utils';
 	import { amountToICPToken } from '$lib/utils/token.utils';
+
 
 	interface Props {
 		balance: bigint;
